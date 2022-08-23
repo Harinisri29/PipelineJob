@@ -39,13 +39,13 @@ pipeline {
     }
     post {
         always {
-             //
+            echo 'Completed'
         }
         failure {
-             //
+             echo 'Failed'
         }
         success {
-             //
+             echo 'Successful'
         }
      }
 }
